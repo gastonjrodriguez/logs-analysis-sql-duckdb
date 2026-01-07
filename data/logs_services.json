@@ -1,0 +1,134 @@
+[
+  {
+    "service_id": 1,
+    "service_name": "api-gateway",
+    "description": "Microservice for api gateway",
+    "team": "Infrastructure",
+    "language": "Java",
+    "repository_url": "https://github.com/company/api-gateway",
+    "current_version": "4.6.19",
+    "is_critical": false,
+    "created_at": "2023-01-04"
+  },
+  {
+    "service_id": 2,
+    "service_name": "user-service",
+    "description": "Microservice for user service",
+    "team": "Infrastructure",
+    "language": "Rust",
+    "repository_url": "https://github.com/company/user-service",
+    "current_version": "5.5.2",
+    "is_critical": false,
+    "created_at": "2022-12-02"
+  },
+  {
+    "service_id": 3,
+    "service_name": "order-service",
+    "description": "Microservice for order service",
+    "team": "Platform",
+    "language": "Java",
+    "repository_url": "https://github.com/company/order-service",
+    "current_version": "3.7.13",
+    "is_critical": true,
+    "created_at": "2020-11-22"
+  },
+  {
+    "service_id": 4,
+    "service_name": "payment-service",
+    "description": "Microservice for payment service",
+    "team": "Data",
+    "language": "Node.js",
+    "repository_url": "https://github.com/company/payment-service",
+    "current_version": "1.6.15",
+    "is_critical": false,
+    "created_at": "2022-04-26"
+  },
+  {
+    "service_id": 5,
+    "service_name": "inventory-service",
+    "description": "Microservice for inventory service",
+    "team": "Data",
+    "language": "Python",
+    "repository_url": "https://github.com/company/inventory-service",
+    "current_version": "5.7.18",
+    "is_critical": false,
+    "created_at": "2022-01-31"
+  },
+  {
+    "service_id": 6,
+    "service_name": "notification-service",
+    "description": "Microservice for notification service",
+    "team": "Infrastructure",
+    "language": "Go",
+    "repository_url": "https://github.com/company/notification-service",
+    "current_version": "1.0.18",
+    "is_critical": true,
+    "created_at": "2022-10-04"
+  },
+  {
+    "service_id": 7,
+    "service_name": "auth-service",
+    "description": "Microservice for auth service",
+    "team": "Data",
+    "language": "Go",
+    "repository_url": "https://github.com/company/auth-service",
+    "current_version": "5.0.6",
+    "is_critical": false,
+    "created_at": "2020-05-27"
+  },
+  {
+    "service_id": 8,
+    "service_name": "analytics-service",
+    "description": "Microservice for analytics service",
+    "team": "Data",
+    "language": "Go",
+    "repository_url": "https://github.com/company/analytics-service",
+    "current_version": "3.2.20",
+    "is_critical": false,
+    "created_at": "2020-08-19"
+  },
+  {
+    "service_id": 9,
+    "service_name": "search-service",
+    "description": "Microservice for search service",
+    "team": "Checkout",
+    "language": "Python",
+    "repository_url": "https://github.com/company/search-service",
+    "current_version": "4.6.3",
+    "is_critical": false,
+    "created_at": "2022-04-22"
+  },
+  {
+    "service_id": 10,
+    "service_name": "recommendation-service",
+    "description": "Microservice for recommendation service",
+    "team": "Platform",
+    "language": "Go",
+    "repository_url": "https://github.com/company/recommendation-service",
+    "current_version": "3.2.13",
+    "is_critical": true,
+    "created_at": "2023-12-17"
+  },
+  {
+    "service_id": 11,
+    "service_name": "shipping-service",
+    "description": "Microservice for shipping service",
+    "team": "Growth",
+    "language": "Node.js",
+    "repository_url": "https://github.com/company/shipping-service",
+    "current_version": "4.2.19",
+    "is_critical": false,
+    "created_at": "2023-01-28"
+  },
+  {
+    "service_id": 12,
+    "service_name": "email-service",
+    "description": "Microservice for email service",
+    "team": "Infrastructure",
+    "language": "Node.js",
+    "repository_url": "https://github.com/company/email-service",
+    "current_version": "2.6.3",
+    "is_critical": false,
+    "created_at": "2020-08-02"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "rule_id": 1,
+    "name": "Alert Rule 1",
+    "service_id": 11,
+    "metric_name": "network_out",
+    "condition": ">",
+    "threshold": 75,
+    "severity": "low",
+    "is_enabled": true,
+    "notification_channel": "webhook"
+  },
+  {
+    "rule_id": 2,
+    "name": "Alert Rule 2",
+    "service_id": 3,
+    "metric_name": "network_out",
+    "condition": "<",
+    "threshold": 82,
+    "severity": "high",
+    "is_enabled": true,
+    "notification_channel": "slack"
+  },
+  {
+    "rule_id": 3,
+    "name": "Alert Rule 3",
+    "service_id": 8,
+    "metric_name": "network_out",
+    "condition": ">=",
+    "threshold": 60,
+    "severity": "medium",
+    "is_enabled": true,
+    "notification_channel": "pagerduty"
+  },
+  {
+    "rule_id": 4,
+    "name": "Alert Rule 4",
+    "service_id": 8,
+    "metric_name": "error_rate",
+    "condition": "<=",
+    "threshold": 88,
+    "severity": "medium",
+    "is_enabled": true,
+    "notification_channel": "webhook"
+  },
+  {
+    "rule_id": 5,
+    "name": "Alert Rule 5",
+    "service_id": 12,
+    "metric_name": "network_in",
+    "condition": ">=",
+    "threshold": 65,
+    "severity": "medium",
+    "is_enabled": true,
+    "notification_channel": "slack"
+  },
+  {
+    "rule_id": 6,
+    "name": "Alert Rule 6",
+    "service_id": 12,
+    "metric_name": "cpu_usage",
+    "condition": "<",
+    "threshold": 65,
+    "severity": "medium",
+    "is_enabled": true,
+    "notification_channel": "pagerduty"
+  },
+  {
+    "rule_id": 7,
+    "name": "Alert Rule 7",
+    "service_id": 8,
+    "metric_name": "latency_p99",
+    "condition": "<=",
+    "threshold": 94,
+    "severity": "low",
+    "is_enabled": true,
+    "notification_channel": "slack"
+  },
+  {
+    "rule_id": 8,
+    "name": "Alert Rule 8",
+    "service_id": 12,
+    "metric_name": "request_count",
+    "condition": ">=",
+    "threshold": 87,
+    "severity": "high",
+    "is_enabled": true,
+    "notification_channel": "webhook"
+  },
+  {
+    "rule_id": 9,
+    "name": "Alert Rule 9",
+    "service_id": 10,
+    "metric_name": "network_in",
+    "condition": "<=",
+    "threshold": 52,
+    "severity": "low",
+    "is_enabled": true,
+    "notification_channel": "pagerduty"
+  },
+  {
+    "rule_id": 10,
+    "name": "Alert Rule 10",
+    "service_id": 7,
+    "metric_name": "memory_usage",
+    "condition": ">",
+    "threshold": 59,
+    "severity": "low",
+    "is_enabled": true,
+    "notification_channel": "slack"
+  },
+  {
+    "rule_id": 11,
+    "name": "Alert Rule 11",
+    "service_id": 7,
+    "metric_name": "cpu_usage",
+    "condition": "<",
+    "threshold": 81,
+    "severity": "medium",
+    "is_enabled": false,
+    "notification_channel": "email"
+  },
+  {
+    "rule_id": 12,
+    "name": "Alert Rule 12",
+    "service_id": 3,
+    "metric_name": "memory_usage",
+    "condition": "<=",
+    "threshold": 50,
+    "severity": "medium",
+    "is_enabled": true,
+    "notification_channel": "slack"
+  },
+  {
+    "rule_id": 13,
+    "name": "Alert Rule 13",
+    "service_id": 12,
+    "metric_name": "network_out",
+    "condition": "<=",
+    "threshold": 56,
+    "severity": "low",
+    "is_enabled": true,
+    "notification_channel": "pagerduty"
+  },
+  {
+    "rule_id": 14,
+    "name": "Alert Rule 14",
+    "service_id": 4,
+    "metric_name": "cpu_usage",
+    "condition": "<=",
+    "threshold": 63,
+    "severity": "medium",
+    "is_enabled": true,
+    "notification_channel": "slack"
+  },
+  {
+    "rule_id": 15,
+    "name": "Alert Rule 15",
+    "service_id": 8,
+    "metric_name": "latency_p99",
+    "condition": ">",
+    "threshold": 57,
+    "severity": "medium",
+    "is_enabled": true,
+    "notification_channel": "pagerduty"
+  },
+  {
+    "rule_id": 16,
+    "name": "Alert Rule 16",
+    "service_id": 8,
+    "metric_name": "memory_usage",
+    "condition": ">",
+    "threshold": 75,
+    "severity": "critical",
+    "is_enabled": false,
+    "notification_channel": "email"
+  },
+  {
+    "rule_id": 17,
+    "name": "Alert Rule 17",
+    "service_id": 7,
+    "metric_name": "memory_usage",
+    "condition": "<=",
+    "threshold": 58,
+    "severity": "low",
+    "is_enabled": true,
+    "notification_channel": "email"
+  },
+  {
+    "rule_id": 18,
+    "name": "Alert Rule 18",
+    "service_id": 7,
+    "metric_name": "network_out",
+    "condition": ">=",
+    "threshold": 94,
+    "severity": "critical",
+    "is_enabled": false,
+    "notification_channel": "webhook"
+  },
+  {
+    "rule_id": 19,
+    "name": "Alert Rule 19",
+    "service_id": 7,
+    "metric_name": "memory_usage",
+    "condition": "<",
+    "threshold": 88,
+    "severity": "critical",
+    "is_enabled": false,
+    "notification_channel": "pagerduty"
+  },
+  {
+    "rule_id": 20,
+    "name": "Alert Rule 20",
+    "service_id": 5,
+    "metric_name": "memory_usage",
+    "condition": "<",
+    "threshold": 77,
+    "severity": "low",
+    "is_enabled": true,
+    "notification_channel": "email"
+  }
+]

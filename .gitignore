@@ -1,0 +1,17 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Logs locales
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
