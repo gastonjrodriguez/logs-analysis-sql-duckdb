@@ -1,6 +1,7 @@
 # Analisis de Logs
 
 Analisis sobre logs de aplicaciones en formato JSON, utilizando DuckDB y queries SQL para evaluar uso de endpoints, errores, performance y patrones temporales.
+Los datos utilizados emulan la realidad, pero no corresponden a ningún conjunto de datos real.
 
 ## Objetivo
 Identificar problemas de performance, estabilidad y calidad de logs, y proponer recomendaciones accionables para el equipo de desarrollo.
